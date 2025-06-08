@@ -3,6 +3,14 @@ import { ArrowRight, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
+  const handleLearnMore = () => {
+    window.open('https://www.alvionglobal.com', '_blank');
+  };
+
+  const handleContactUs = () => {
+    window.open('https://www.alvionglobal.com', '_blank');
+  };
+
   return (
     <section className="bg-gradient-to-br from-blue-50 to-indigo-100 py-20 px-4">
       <div className="max-w-4xl mx-auto text-center">
@@ -19,10 +27,10 @@ const Hero = () => {
           with the transition of software development services to Alvion Global Solutions
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+          <Button size="lg" className="bg-blue-600 hover:bg-blue-700" onClick={handleLearnMore}>
             Learn More <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
-          <Button variant="outline" size="lg">
+          <Button variant="outline" size="lg" onClick={handleContactUs}>
             Contact Us
           </Button>
         </div>
