@@ -41,7 +41,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-medium text-gray-800">Website</p>
-                  <p className="text-green-600">www.alvionglobal.com</p>
+                  <p className="text-green-600">www.alviongs.com</p>
                 </div>
               </div>
             </div>
