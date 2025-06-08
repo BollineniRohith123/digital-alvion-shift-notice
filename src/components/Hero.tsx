@@ -1,14 +1,13 @@
-
 import { ArrowRight, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   const handleLearnMore = () => {
-    window.open('https://www.alvionglobal.com', '_blank');
+    window.open('https://www.alviongs.com/', '_blank');
   };
 
   const handleContactUs = () => {
-    window.open('https://www.alvionglobal.com', '_blank');
+    window.open('https://www.alviongs.com/', '_blank');
   };
 
   return (
