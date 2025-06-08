@@ -20,14 +20,14 @@ const Footer = () => {
               IT consulting, and enterprise solutions.
             </p>
             <p className="text-sm text-gray-400">
-              Email: svprsdm@alvionglobal.com | www.alvionglobal.com
+              Email: svprsdm@alviongs.com | www.alviongs.com
             </p>
           </div>
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 Business Transition Notice. All ongoing projects and client agreements 
+            © 2023 Business Transition Notice. All ongoing projects and client agreements 
             are being transferred to ensure continuity of service.
           </p>
         </div>
